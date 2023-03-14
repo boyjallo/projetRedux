@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import './Components/AjouterUneTache';
+import AjouterUneTache from './Components/AjouterUneTache';
+import './Components/ListTask';
+import TaskList from './Components/ListTask';
+import './Components/Tache';
+import Tache from './Components/Tache';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+<AjouterUneTache/>
+<TaskList/>
+<Tache/>
     </div>
   );
 }

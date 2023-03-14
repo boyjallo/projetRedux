@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: bisque;
+  
 }
 
 .App-logo {
@@ -35,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.list{
+  text-decoration: none;
+  list-style: none;
+}
+.titre{
+  font-size: 50px;
 }
